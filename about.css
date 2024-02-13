@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&family=Roboto+Mono:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 900px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: transparent;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+
+}
+
+#mainlink{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    bottom: 10px;
+}
+
+#mainlink a{
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+#mainlink a:hover{
+    color:  orangered;
+}
+
+
+.logo{
+    font-family: Dancing Script;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#Foods{
+    color:  orangered;
+}
+
+#R{
+    color: black;
+    transform: rotate(100deg);
+}
+
+#us{
+    color: green;
+}
+
+
+.main1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.main1 .card1{
+    width: 50%;
+    height: 100%;
+    background: white;
+    background-image: url(foodimages/business\ woman1.avif);
+    background-position: center;
+    background-size: cover;
+}
+
+.main1 .card2{
+    width: 50%;
+    height: 100%;
+    background:  dodgerblue;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.main1 .card2 h2{
+    color: maroon;
+    font-family: Dancing Script;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.main1 .card2 p{
+    width: 500px;
+    font-size: 20px;
+    font-family: Poppins;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.main2{
+    width: 100%;
+    height: 300px;
+    background: #191919;
+    position: relative;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamcard{
+    width: 100%;
+    height: 40px;
+    background: #191919;
+
+}
+
+#team{
+    color: white;
+    font-family: Dancing Script;
+    text-align: center;
+}
+
+.main2 .box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background: white;
+    margin: 7px;
+    background-image: url(foodimages/man1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main2 .box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background: white;
+    margin: 7px;
+    background-image: url(foodimages/woman1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main2 .box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background: white;
+    margin: 7px;
+    background-image: url(foodimages/man2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main2 .box4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background: white;
+    margin: 7px;
+    background-image: url(foodimages/woman2.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main2 .box5{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    background: white;
+    margin: 7px;
+    background-image: url(foodimages/man3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.teamroles{
+    width: 100%;
+    height: 50px;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: maroon;
+}
+
+.teamroles div{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font-family: Poppins;
+}
+
+.teamroles div p{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background: #333;
+}
+
+.footer h4{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: Poppins;
+    color:  silver;
+}

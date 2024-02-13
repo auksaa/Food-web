@@ -1,0 +1,243 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&family=Roboto+Mono:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 1200px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: transparent;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* background: dodgerblue; */
+}
+
+#mainlink{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    top: 10px;
+}
+
+#mainlink a{
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+#mainlink a:hover{
+    color:  orangered;
+}
+
+#sublink{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+#sublink a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: orangered;
+    margin: 12px;
+    border-radius: 4px;
+    color: white;
+    font-family: poppins;
+}
+
+.logo{
+    font-family: Dancing Script;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+#Foods{
+    color: orangered;
+}
+
+#R{
+    color: black;
+    transform: rotate(100deg);
+}
+
+#us{
+    color: green;
+}
+
+#delivery{
+    position: relative;
+    top: 150px;
+    color: white;
+    font-size: 45px;
+    font-family: Dancing Script;
+    letter-spacing: 2px;
+    text-align: center;
+    text-shadow: 0 0 3px grey;
+}
+
+#delivery-text{
+    text-align: center;
+    width: 350px;
+    position: relative;
+    top: 150px;
+    left:500px;
+    color:white;
+    font-family: Poppins;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(foodimages/chocolate.jpeg);
+    background-size: cover;
+    background-position: center;
+    animation: images 50s linear infinite ;
+}
+
+.main{
+    width: 100%;
+    height: 80px;
+    /* background: silver; */
+}
+
+#text-delivery{
+    color: rgb(185, 118, 31);
+    font-family: Dancing Script;
+    text-align: center;
+}
+
+.boxes{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    width: 150px;
+    height: 150px;
+    background-image: url(foodimages/food2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    background-image: url(foodimages/food3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+    background-image: url(foodimages/food1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box4{
+    width: 150px;
+    height: 150px;
+    background-image: url(foodimages/food4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box5{
+    width: 150px;
+    height: 150px;
+    background-image: url(foodimages/food5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cards{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    width: 200px;
+    height: 200px;
+    background-image: url(foodimages/cake2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.card2{
+    width: 200px;
+    height: 200px;
+    background-image: url(foodimages/cake3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.card3{
+    width: 200px;
+    height: 200px;
+    background-image: url(foodimages/cake4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.card4{
+    width: 200px;
+    height: 200px;
+    background-image: url(foodimages/cake5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.card5{
+    width: 200px;
+    height: 200px;
+    background-image: url(foodimages/cake.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background: #1d1b1bf3;
+}
+
+.footer h4{
+    color: rgb(185, 118, 31);
+    font-family: Poppings;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+
+}
+
+@keyframes images {
+    0%{
+        background-image: url(foodimages/cake.jpeg);
+    }    
+
+    35%{
+            background-image: url(foodimages/candy1.jpeg);
+    }
+
+    70%{
+        background-image: url(foodimages/chocolate1.jpeg);
+    }
+}

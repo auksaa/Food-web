@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@200&family=Roboto+Mono:wght@100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 800px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: transparent;
+}
+
+.navbar{
+    width: 100%;
+    height: 80px;
+    /* background: dodgerblue; */
+}
+
+#mainlink{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    position: relative;
+    top: 5px;
+}
+
+#mainlink a{
+    text-decoration: none;
+    margin: 12px;
+    color: black;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+#mainlink a:hover{
+    color:  orangered;
+}
+
+.logo{
+    font-family: Dancing Script;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+#Foods{
+    color: orangered;
+}
+
+#R{
+    color: black;
+    transform: rotate(100deg);
+}
+
+#us{
+    color: green;
+}
+
+h3{
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+
+.delivery-text{
+    width: 100%;
+    height: 100px;
+    color: yellowgreen ;
+    font-family: Dancing Script;
+    font-weight: bold;
+}
+
+.delivery-text li{
+    color: black;
+    list-style: none;
+}
+
+.service-link{
+    display: flex;
+    justify-content: center;
+}
+
+.service-link li{
+    margin: 12px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.delivery-text h1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+
+.main1{
+    width: 100%;
+    height: 400px;
+}
+.cards{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.cards .card1{
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.cards .card1 .image{
+    width: 250px;
+    height: 250px;
+}
+
+.cards .card1 .info{
+    width: 250px;
+    height: 200px;
+    background: grey;
+    border-radius: 4px;
+    margin-top: -200px;
+    transition: 0.4s ease-in-out;
+}
+
+.cards .card2{
+    /* background: cornflowerblue; */
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.cards .card2 .image{
+    width: 250px;
+    height: 250px;
+}
+
+.cards .card2 .info{
+    width: 250px;
+    height: 200px;
+    background: grey;
+    border-radius: 4px;
+    margin-top: -200px;
+    transition: 0.4s ease-in-out;
+}
+
+.cards .card3{
+    /* background: cornflowerblue; */
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.cards .card3 .image{
+    width: 250px;
+    height: 250px;
+}
+
+.cards .card3 .info{
+    width: 250px;
+    height: 200px;
+    background: grey;
+    border-radius: 4px;
+    margin-top: -200px;
+    transition: 0.4s ease-in-out;
+}
+
+.cards .card4{
+    width: 250px;
+    height: 450px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.cards .card4 .image{
+    width: 250px;
+    height: 250px;
+
+}
+
+.cards .card4 .info{
+    width: 250px;
+    height: 200px;
+    background: grey;
+    border-radius: 4px;
+    margin-top: -200px;
+    transition: 0.4s ease-in-out;
+}
+
+p{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    bottom: 30px;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background: #333;
+}
+
+.footer h4{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-family: Poppins;
+    color:  yellowgreen;
+}
+
+
+
+
+/* Hover Effects For The Cards */
+.card1:hover .info{
+    margin-top: 20px;
+    transition-delay:  1.5s ease-in-out;
+}
+
+.card2:hover .info{
+    margin-top: 20px;
+    transition-delay:  1.5s ease-in-out;
+}
+
+.card3:hover .info{
+    margin-top: 20px;
+    transition-delay:  1.5s ease-in-out;
+}
+
+.card4:hover .info{
+    margin-top: 20px;
+    transition-delay:  1.5s ease-in-out;
+}
+
+.card1:hover h3{
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bold;
+    visibility: visible;
+}
+
+.card2:hover h3{
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bold;
+    visibility: visible;
+}
+
+.card3:hover h3{
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bold;
+    visibility: visible;
+}
+.card4:hover h3{
+    font-family: Poppins;
+    text-align: center;
+    font-weight: bold;
+    visibility: visible;
+}
+
+.card1:hover p{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    visibility: visible;
+}
+.card2:hover p{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    visibility: visible;
+}
+.card3:hover p{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    visibility: visible;
+}
+.card4:hover p{
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    bottom: 10px;
+    visibility: visible;
+}
+
